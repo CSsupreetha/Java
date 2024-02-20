@@ -1,1 +1,25 @@
-
+public class Main {
+    public static void main(String[] args)
+    {
+        int num = 10;
+ 
+        // Checking for positive, negative or zero
+        if (num > 0) {
+            System.out.println("Positive number");
+        }
+        else if (num == 0) {
+            System.out.println("Zero");
+        }
+        else {
+            System.out.println("Negative number");
+        }
+ 
+        // Checking for odd and even
+        if (num % 2 == 0) {
+            System.out.println(num + " is Even");
+        }
+        else {
+            System.out.println(num + " is Odd");
+        }
+    }
+}
